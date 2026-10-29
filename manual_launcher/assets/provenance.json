@@ -1,0 +1,31 @@
+{
+  "character": "鸣潮 · 清宵 (Qingxiao)",
+  "use": "个人同人界面；非官方产品",
+  "reference": {
+    "page": "https://wiki.biligame.com/wutheringwaves/角色/清宵",
+    "image": "https://patchwiki.biligame.com/images/wutheringwaves/8/87/npkzsxgp4e3soutug260bcg1cacvwvb.png",
+    "official_character_page": "https://mc.kurogames.com/main/news/detail/5320"
+  },
+  "skills": [
+    "anime-character-generator",
+    "build-anime-knowledge-websites",
+    "imagegen"
+  ],
+  "generation": "Built-in image_gen, official character reference supplied; no model selector exposed",
+  "assets": [
+    {
+      "file": "qingxiao-wallpaper.png",
+      "prompt": "Create one finished 16:9 landscape wallpaper illustration for a personal Windows desktop assistant themed around Qingxiao 清宵 from Wuthering Waves 鸣潮. Use the supplied official character cutout strictly as the CHARACTER IDENTITY and CLOTHING reference. Preserve the long flowing light ice-blue hair, face, gold/amber eyes, the two distinctive white-cloud horn ornaments, dark navy high collar with gold and green detailing, flowing white and pale blue sleeveless outfit with jade jewelry, slim blue sword and mint cloud ribbons. Do not redesign her as a generic xianxia girl, do not change hair color, horns, neckline or costume. Refined Eastern anime game art with delicate precise linework, pastel celadon, mist blue, paper white, restrained gold; serene cold sword immortal mood. Wide composition: character on the RIGHT quarter of the canvas, three-quarter view facing gently toward the left, full head and horns visible; LEFT two-thirds largely empty with subtle pale cloudy mountains, a tranquil lake and fine wind trails, suitable behind readable desktop UI cards. Make the character larger than background landscape but keep UI negative space clean. Soft dawn rim light, exceptionally polished official-character-inspired personal fan artwork. No text, no logo, no interface widgets, no watermark. Keep the reference identity and recognizable costume accurate. Output one wide landscape image.",
+      "source_kind": "AI-generated character fan artwork",
+      "sha256": "54cf6bec4a3a0f4ea131d1abd1f0363e55df5a696c785f6eb4b0443f364e949a"
+    },
+    {
+      "file": "qingxiao-icon.png",
+      "prompt": "Create exactly one polished square Windows application icon for a personal Qingxiao 清宵 Wuthering Waves 鸣潮 assistant. Strictly preserve the identity in the supplied official reference: the distinctive long ice-blue hair, two white cloud-shaped horn ornaments, her face shape and amber-gold eye color, dark navy high collar, jade and gold ornaments. A clean close-up head-and-shoulders portrait with the whole head and both horns inside the frame, facing slightly left, composed for recognition at 32px and 64px. Painterly Eastern anime game style with extremely clean facial lines, restrained celadon-jade and mist-blue background, subtle jade circular halo and a single small gold glint. Portrait occupies most of the square, generous 10 percent safe padding, simple quiet background, no busy landscape. Personal fan-art icon, not a franchise logo. No text, no letters, no watermark, no fake UI. 1:1 aspect ratio.",
+      "source_kind": "AI-generated character fan artwork",
+      "sha256": "69aa5b5e828a6deac32be3c39e71c060f03186c331ce2660367447864e5b63a5"
+    }
+  ],
+  "icon_conversion": "qingxiao.ico contains 16,24,32,48,64,128,256 pixel sizes; compiled into EXE.",
+  "notice": "Character-related rights belong to Kuro Games and the respective rights holders. This project is unofficial. Code AGPL does not grant rights to third-party character IP."
+}

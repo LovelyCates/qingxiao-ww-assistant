@@ -2,9 +2,50 @@
 
 基于 [OK-WW](https://github.com/ok-oldking/ok-wuthering-waves) 与 [ok-script](https://github.com/ok-oldking/ok-script) 的桌面助手二次开发。提供原生 Qt 界面、任务队列、受限对话规划、执行报告、截图回查与停止控制。非游戏官方产品。
 
-**当前为源码预览版，尚未发布完整二进制安装包。** 公开树不包含账号、密钥、个人运行记录、角色壁纸，也不直接分发上游识别图片和模型；运行资源可由用户单独从上游获取，逐文件校验SHA-256。
+**当前为源码预览版，尚未发布完整二进制安装包。** 公开树不包含账号、密钥或个人运行记录；保留清宵人物主题，不直接分发上游识别图片和模型；运行资源可由用户单独从上游获取，逐文件校验SHA-256。
 
-![偏好设置](docs/images/preferences.png)
+## APP 截图
+
+清宵人物主题的APP界面截图，截图时未启动游戏任务。角色素材来源与权益说明见[人物视觉声明](manual_launcher/assets/CHARACTER-ART.md)。
+
+### 总览
+
+![APP总览：任务入口、有效进度与等待队列](docs/images/overview.png)
+
+<details>
+<summary>自动任务：日常、刷本、Boss和梦魇</summary>
+
+![自动任务：目标、材料与自然体力上限](docs/images/tasks.png)
+
+</details>
+
+<details>
+<summary>游玩与声骸：拾取、对话、战斗、强化与融合</summary>
+
+![游玩辅助与声骸管理](docs/images/assist.png)
+
+</details>
+
+<details>
+<summary>更多入口：快捷传送、主属性重构与无音消除</summary>
+
+![快捷传送、主属性重构与无音消除](docs/images/assist-more.png)
+
+</details>
+
+<details>
+<summary>偏好设置：游戏路径与模型配置</summary>
+
+![本机游戏路径、模型与运行设置](docs/images/preferences.png)
+
+</details>
+
+<details>
+<summary>功能对照：与OK-WW的差异及验证范围</summary>
+
+![功能对照与当前验收范围](docs/images/comparison.png)
+
+</details>
 
 ## 功能状态
 
@@ -62,6 +103,10 @@ powershell -NoProfile -ExecutionPolicy Bypass -File ./Setup.ps1 -FetchResources
 本机已验证原环境、独立uv环境、从源码ZIP创建的pip环境；9页在1120×760及1440×960下检查通过，EXE实际启动与关闭通过。离线测试隔离游戏输入。公开版增加资源下载、校验、路径隔离的回归检查。
 
 同机新环境不能代替另一台Windows电脑的捕获、权限安装、登录和实际任务验收。新重构、无音消除、快捷传送与剧情组合仍有实跑待测项。高级Boss参数、角色/热键完整设置、队伍代码与工坊尚未完整开放。详见 [发布状态](RELEASE_STATUS.md)。
+
+## 人物视觉声明
+
+清宵及《鸣潮》相关形象与商标归库洛游戏及相关权利人所有。本项目使用参考角色形象生成的同人图标和壁纸，为非官方产品；代码AGPL不包含对第三方角色IP的再授权。详见[素材来源及声明](manual_launcher/assets/CHARACTER-ART.md)。
 
 ## 许可与来源
 
