@@ -25,7 +25,7 @@
 
 ```powershell
 # 安装依赖、构建启动器并检查界面；不操作游戏
-powershell -NoProfile -ExecutionPolicy Bypass -File .\Setup.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File ./Setup.ps1
 # 没有py命令时，可额外传 -Python "你的Python3.12路径"
 # 强制使用标准pip安装可传 -UsePip
 ```
@@ -35,7 +35,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\Setup.ps1
 需要实际运行游戏功能时，先获取资源：
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\Setup.ps1 -FetchResources
+powershell -NoProfile -ExecutionPolicy Bypass -File ./Setup.ps1 -FetchResources
 ```
 
 此步骤直接访问上游固定版本的公开资源，核对全部文件校验值；已被用户修改的资源不会被静默覆盖。请自行核对并遵守上游项目及相关资源条款。依赖和运行资源的许可不因本仓库源码许可而改变。
@@ -54,9 +54,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\Setup.ps1 -FetchResources
 ## 测试与限制
 
 ```powershell
-.\.venv\Scripts\python.exe -I release_toolsun_checks.py
-.\.venv\Scripts\python.exe -I release_tools\smoke_test.py
-.\.venv\Scripts\python.exe -I release_toolsetch_upstream_resources.py --check
+./.venv/Scripts/python.exe -I release_tools/run_checks.py
+./.venv/Scripts/python.exe -I release_tools/smoke_test.py
+./.venv/Scripts/python.exe -I release_tools/fetch_upstream_resources.py --check
 ```
 
 本机已验证原环境、独立uv环境、从源码ZIP创建的pip环境；9页在1120×760及1440×960下检查通过，EXE实际启动与关闭通过。离线测试隔离游戏输入。公开版增加资源下载、校验、路径隔离的回归检查。
