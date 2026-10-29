@@ -1,0 +1,1 @@
+Original geometric SVG assets and rendered icons created for this project, provided under the root GNU AGPL-3.0 license. No game-character reference is used.

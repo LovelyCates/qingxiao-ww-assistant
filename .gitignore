@@ -1,0 +1,21 @@
+.venv/
+.runtime/
+local-runs/
+local-game-config/
+local-config.json
+configs/
+tools/
+release-test/
+__pycache__/
+*.py[cod]
+*.log
+*.exe
+*.zip
+.env
+.env.*
+
+# Downloaded directly from upstream; not redistributed here.
+ok-wuthering-waves-3.7.8/assets/
+ok-wuthering-waves-3.7.8/icons/
+ok-wuthering-waves-3.7.8/i18n/
+source-manifest.json
